@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  
+
+}
+body{
+    overflow-x: hidden;
+}
+
+.nav{
+    height:70px;
+    width: 100vw;
+    background-color: white;
+    display:flex;  
+    padding: 10px;
+
+}
+.nav h3{
+    font-family: 'Kanit', sans-serif;
+    margin-top: auto;
+        margin-left:6%;
+     color: rgb(248, 38, 1);
+     font-size: x-large;
+   
+    
+     
+
+}
+.nav span{
+    color: rgb(32, 31, 31);
+    padding: 5px;
+}
+
+.nav a
+{
+      position: relative;
+      margin:10px;
+      margin-left: 30px;
+    font-size: large;
+    text-decoration: none;
+    color: grey;
+    left: 15%;
+    font-family: 'Roboto Mono', monospace;        
+}
+.nav a:hover {
+    /* text-decoration: 2px underline tomato; */
+    transition: .4s;
+    border-bottom: 1px solid grey;
+    color: red;
+  
+}
+.nav span:hover{
+    /* text-decoration: 2px underline tomato; */
+    transition: .2s;
+    color: red;
+}
+  #nav-icon{
+    color: grey;
+    position: relative;
+   font-size: 21px;
+   left: 68vh;
+  top:9px;
+  margin-left: 10px;
+}
+#nav-icon:hover{
+    color: red;
+}
+
+.box1{
+    height: 70vh;
+    width: 100%;
+    background-color:#f0f8ff;
+    
+  
+    
+}
+.box1 span{
+    position: relative;
+   
+    font-size: 75px;
+    display: block;
+    color: black;
+   line-height: normal;
+   margin-left: 5%; 
+   font-family: 'Passion One', cursive;   
+   top:100px;
+
+}
+.box1 #b1-s1{
+
+
+    color: #ff4400 ;
+}
+.main{
+    margin: 100px;
+    width: fit-content;
+    /* background-color: rgb(189, 139, 156); */
+    display: flex;
+}
+
+.main1 img{
+   height:80vh;
+   width:auto;
+  
+}
+.main1 img:hover{
+    box-shadow: 8px 7px 15px gray;
+    transition: .9s;
+}
+.main2{
+    margin: 40px;
+   
+   word-spacing: 10px;
+   line-height: 35px;
+}
+
+.main2 h1{
+    font-family: 'Passion One', cursive;   
+
+}
+.main2 span{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+}
+.main2 p{
+    color: gray;
+}
+.main2 #m2-p2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.main2 input,select{
+    height: 12%;
+    width: 35%;
+    padding: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+   
+}
+.main2 select option{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    border: rgb(233, 225, 225);
+    
+
+}
+.main2 input{
+    background-color: black;
+    color: #f0f8ff;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+}
+.main2 input:hover{
+    background-color: #ff4400;
+
+}
+.main2 a{
+    text-decoration: none;
+    color: gray;
+}
+.main2 a:hover{
+    color: #ff4400;
+}
+#mainend{
+    margin-left: 7%;
+}
+.mmain{
+    margin-left: 7%;
+        width: fit-content;
+    display: flex;
+}
+.mmain img{
+    height: auto;
+    width: 86%;
+    margin: 5px;
+}
+.mmain img:hover{
+    box-shadow: 10px 10px 15px grey;
+    transition: all.3s;
+}
+.mmain i{
+    position: relative;
+    top:-35%;
+    right: 10%;
+    font-size: 20px;
+    color: white;
+}
+.mmain i:hover{
+    color: red;
+    transition: 1s;
+
+}
+.mmain h4{
+    font-family: 'Roboto Mono', monospace;   
+}
+.mmain p{
+    font-size: smaller;
+    color: gray;
+}
+.mmain span{
+    position: relative;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    left: 35%;  
+}
+.footer{
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    color:white;
+    display: flex;
+    line-height: 40px;
+  
+}
+.foo1{
+    position: relative;
+    height: auto;
+    width: 20%;
+    margin: 60px;
+    top: 30%;
+}
+.foo1 span{
+    color: gray;
+}
+.foo1 span:hover{
+    color: #ff4400;
+    transition: .5s;
+}
+.foo1 p{
+    color: grey;
+}
+.foo2{
+    position: relative;
+    height: auto;
+    width: 20%;
+    margin: 60px;
+    top: 30%;
+}
+.foo2 a{
+    text-decoration: none;
+    display: block;
+    color: grey;
+}
+.foo2 a:hover{
+    color: #ff4400;
+}
+#le{
+    position: relative;
+    top: -47%;
+    left: 90%;
+}
+
+.foo3{
+    position: relative;
+    height: auto;
+    width: 30%;
+    margin: 60px;
+    top: 50%;
+    left: 15%;
+
+}
+.foo3 i{
+   margin-left: 5px;
+   padding: 10px;
+    color: gray;
+}
+.foo3 i:hover{
+    color: #ff4400;
+}
+
+
+
